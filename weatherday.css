@@ -1,0 +1,132 @@
+.temp2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.temp2 svg {
+    margin-top: 90px;
+
+}
+
+.logoweather {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.logoweather p {
+    margin-bottom: 16px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+#Calque_1 {
+    margin: 0px;
+    margin-left: 0px;
+}
+
+#windkph {
+    margin-top: 16px;
+}
+
+.separator{
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    margin-top: auto;
+}
+
+#weather-temps{
+    font-size: 100px;
+}
+
+.boxToDay2 {
+    width: 103px;
+    height: 130px;
+    background-color: #8484846d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.day2 {
+    margin-bottom: 16px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+h4 {
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+
+.boxToDay2 img {
+    width: 60px;
+    height: 60px;
+
+}
+
+#humidity{
+    font-size: 45px;
+    margin-bottom: 14px;
+
+}
+
+.bottomPage {
+    margin-top: 36px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.bottomPage p{
+    font-size: 40px;
+    margin-top: 19px;
+}
+
+h5{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.ecart p{
+    font-size: 12px;
+    margin-bottom: 11px;
+
+}
+
+
+.feelcontainer p{
+    margin-bottom: 0px;
+
+}
+
+.gustkphcontainer p {
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#feelGap{
+    margin-top: 9px;
+}
+
+.hautpage svg{
+    margin: 8px 0px 0px 0px;
+}

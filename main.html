@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- partie haut -->
+    <div>
+        <!-- localisation -->
+        <div class="dateContainer">
+            <div class="hautpage">
+                <p>marseille</p>
+                <svg class="svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+
+            <p id="dateTime"></p>
+
+        </div>
+    </div>
+
+
+    <!-- partie moyenne -->
+    <div class="middlepart">
+        <div>
+            <div>
+                <p class="temp" id="temperature"></p>
+                <p class="temp" id="weather-temps"></p>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div>
+                <h6>humidité:</h6>
+                <p id="humidity"></p>
+            </div>
+
+            <span>
+
+            </span>
+
+            <div>
+                <h6>vitesse du vent</h6>
+                <p id="windkph"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- partie basse -->
+    <div>
+        <!-- jour -->
+        <div class="day">
+            <!-- aujourd'hui -->
+            <div class="boxDay">
+                <div class="boxToDay">
+                    <h4>Aujourd'hui</h4>
+                    <img id="logoweather1" src="" alt="logo ">
+                    <h3>10°/15°</h3>
+                    <p id="weather"></p>
+                </div>
+                <div class="boxBackgrond"></div>
+            </div>
+            <!-- j+1 -->
+            <div class="boxDay">
+                <div class="boxToDay">
+                    <a href="weatherday.html">
+                        <p id="date"></p>
+                        <img id="logoweather2" src="" alt="logo ">
+                        <div class="tempMaxMin">
+                            <p id="maxtemp"></p>
+                            <p id="mintemp"></p>
+                        </div>
+                        <p id="weather2"></p>
+                    </a>
+                </div>
+                <div class="boxBackgrond"></div>
+            </div>
+            <!-- j+2 -->
+            <div class="boxDay">
+                <div class="boxToDay">
+                    <p class="moon">lune</p>
+                    <img src="image/p2n.svg" alt="logo">
+                    <div class="sun">
+                        <p id="sunrise"></p>
+                        <p id="sunset"></p>
+                    </div>
+                <p id="weather3"></p>
+                </div>
+                <div class="boxBackgrond"></div>
+            </div>
+        </div>
+        <!-- fleche -->
+        <div class="forecast-navigator">
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
