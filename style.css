@@ -1,0 +1,207 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background: linear-gradient(#494BCF, #08113F);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+
+.hautpage {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.middlepart {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.middle span {
+    width: 5px;
+    height: 110px;
+    background-color: #ffffff;
+    margin-top: auto;
+}
+
+h6 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.middle p {
+    font-size: 40px;
+    margin: 17px;
+}
+
+
+.hautpage p {
+    font-size: 64px;
+    margin-top: 59px;
+    margin-bottom: 36px;
+}
+
+
+.dateContainer p {
+    margin: 0px;
+    margin-left: 18px;
+}
+
+
+.temp {
+    font-size: 100px;
+    margin-top: 90px;
+    margin-bottom: 76px;
+    text-align: left;
+}
+
+
+.boxToDay {
+    width: 103px;
+    height: 140px;
+    background-color: #8484846d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.day {
+    margin-bottom: 16px;
+    margin-top: 107px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+h4 {
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+#date{
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+#date2{
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+    margin-bottom: 0px;
+
+}
+
+
+.boxToDay img {
+    width: 60px;
+    height: 60px;
+
+}
+
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+
+h2 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+
+.forecast-navigator {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+
+.forecast-navigator img {
+    height: 40px;
+    width: 40px;
+
+}
+
+#weather{
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+
+#weather2{
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#weather3{
+    margin: 0px;
+    font-size: 12px;
+}
+
+#maxtemp{
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#mintemp{
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.tempMaxMin {
+    display: flex;
+
+}
+
+.tempMaxMin2 {
+    display: flex;
+}
+
+.sun p{
+    display: flex;
+    margin: 0px;
+}
+
+.moon{
+    margin: 0px;
+    margin-top: 13px;
+}
+

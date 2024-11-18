@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="weatherday.css" />
+
+</head>
+
+<body>
+    <!-- partie haut -->
+    <div>
+        <!-- localisation -->
+        <div class="dateContainer">
+            <div class="hautpage">
+                <p>Mardi</p>
+                <svg class="svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <p id="dateTime"></p>
+        </div>
+    </div>
+
+
+    <!-- partie moyenne -->
+    <div class="middlepart">
+        <div class="temp2">
+            <p id="temperature"></p>
+            <p id="weather-temps"></p>
+            <div class="logoweather">
+                <p class="nameWeather">ensolaillé</p>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Calque_1" data-name="Calque 1" viewBox="0 0 85.23 85.24"
+                    width="80" height="80">
+                    <defs>
+                        <style>
+                            .p1j-1 {
+                                fill: #eeeb61;
+                                opacity: 0.51;
+                                isolation: isolate;
+                            }
+
+                            .p1j-2 {
+                                fill: #f5b21a;
+                                stroke: #fde901;
+                                stroke-miterlimit: 10;
+                            }
+                        </style>
+                    </defs>
+                    <title>Plan de travail 1</title>
+                    <circle class="p1j-1" cx="42.62" cy="42.64" r="40.14" />
+                    <circle class="p1j-2" cx="42.62" cy="42.64" r="30.00" />
+                </svg>
+                <p id="windkph"></p>
+            </div>
+        </div>
+
+
+
+        <p id="humidity"></p>
+
+    </div>
+
+
+    <!-- partie basse -->
+    <div>
+        <div class="separator">
+            <span></span>
+        </div>
+        <!-- jour -->
+        <div class="day2">
+            <!-- aujourd'hui -->
+            <div class="boxDay2">
+                <div class="boxToDay2">
+                    <h4>matin</h4>
+                    <img src="image/p14j.svg" alt="logo pluit">
+                    <h3>10°/15°</h3>
+                    <h2>averses</h2>
+                </div>
+            </div>
+            <!-- mardi -->
+            <div class="boxDay2">
+                <div class="boxToDay2">
+                    <a href="app-mardi.js">
+                        <h4>soir</h4>
+                        <img src="image/p16bisj.svg" alt="logo pluit">
+                        <h3>10°/15°</h3>
+                        <h2>averses</h2>
+                    </a>
+                </div>
+            </div>
+            <!-- mercredi -->
+            <div class="boxDay2">
+                <div class="boxToDay2">
+                    <h4>nuit</h4>
+                    <img src="image/p2n.svg" alt="logo pluit">
+                    <h3>10°/15°</h3>
+                    <h2>averses</h2>
+                </div>
+            </div>
+        </div>
+        <div class="separator">
+            <span></span>
+        </div>
+        <!-- bas de page -->
+        <div class="bottomPage">
+            <div class="feelcontainer">
+                <h1>Ressenti :</h1>
+                <p id="feels"></p>
+                <div class="ecart">
+                    <p id="feelGap"></p>
+
+                </div>
+            </div>
+            <div class="gustkphcontainer">
+                <h1>vitesse des raffale :</h1>
+                <h5>
+                    <p id="gustkph"></p>
+                </h5>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="weatherday.js"></script>
+
+</html>
