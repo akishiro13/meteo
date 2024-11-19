@@ -155,7 +155,7 @@ h2 {
 
 }
 
-#weather{
+#weather1{
     margin: 0px;
     font-size: 12px;
     text-align: center;
@@ -186,12 +186,21 @@ h2 {
     text-align: center;
 }
 
-.tempMaxMin {
+.tempMaxMin1{
     display: flex;
 
 }
 
+.tempMaxMin1 p{
+    margin: 0;
+
+}
+
 .tempMaxMin2 {
+    display: flex;
+}
+
+.tempMaxMin1 {
     display: flex;
 }
 
